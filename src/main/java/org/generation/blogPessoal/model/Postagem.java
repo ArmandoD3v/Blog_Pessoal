@@ -26,7 +26,7 @@ public class Postagem {
 	
 
 	@NotNull
-	@Size(min = 8, max = 128)
+	@Size(min = 2, max = 128)
 	private String titulo;
 	
 	@NotNull
